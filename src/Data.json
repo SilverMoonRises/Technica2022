@@ -1,0 +1,16 @@
+[
+  {
+    "author": "Bob Joe",
+    "language": "English",
+    "pdf": "https://www.africau.edu/images/default/sample.pdf",
+    "pages": 2,
+    "title": "PDF Sample1"
+  },
+  {
+    "author": "Bill Nye",
+    "language": "English",
+    "pdf": "https://www.africau.edu/images/default/sample.pdf",
+    "pages": 2,
+    "title": "PDF Sample2"
+  }
+]

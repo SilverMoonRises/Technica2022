@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-import Data from './Data.json';
-import searchBar from './components/SearchBar';
+import SearchBar from './Components/SearchBar';
+import paperTitle from './Data.json';
 
 function App() {
   return (
     <div className='App'>
-      <searchBar placeholder='' />
+      <SearchBar placeholder='Enter a keyword...' data={paperTitle} />
     </div>
   );
 }
+
+export default App;
