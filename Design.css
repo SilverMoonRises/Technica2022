@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 3;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    background-color: rgb(241, 173, 231);
+    height: 88px;
+}
+
+label.logo {
+    color: white;
+    font-size: 25px;
+        padding: 0;
+        margin: 3;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    
+    }
+    
+    label.logo {
+        color: white;
+        font-size: 25px;
+        line-height: 85px;
+        padding: 0 40px;
+        
+    }
+    
+    nav ul {
+        float: right;
+        margin-right: 40px
+    }
+    
+    nav ul li {
+        display: inline-block;
+        line-height: 60px;
+        margin: 0 5px;
+    
+    }
+    
+    nav ul li a {
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0px 20px;
+        border-radius: 4px;
+        
+    }
+    
+    a.active,
+    a:hover {
+        background: purple;
+    }    
+    
+     
+
+nav ul {
+    float: right;
+    margin-right: 40px
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+
+}
+
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 20px;
+    border-radius: 4px;
+    
+}
+
+a.active,
+a:hover {
+    background: purple;
+}
+
+.content h1{
+  width:100%;
+  position: absolute;
+  transform: translateX(20%);
+  top: 30%
+}
+
+.container{
+  position: absolute;
+  transform: translateX(80%);
+  top:45%
+}
